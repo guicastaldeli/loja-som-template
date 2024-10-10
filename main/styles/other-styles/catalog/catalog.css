@@ -1,0 +1,148 @@
+#item-element-- {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  left: 34rem;
+  top: 130px;
+  /* Item Card */
+  /* */
+  /* Price Display */
+  /* */
+  /* Add Cart Button */
+  /* */
+}
+#item-element-- #c-card-- {
+  width: 800px;
+  height: 200px;
+  margin-top: 12px;
+  background-color: rgb(248, 248, 248);
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.244);
+  display: flex;
+  /* hover */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#item-element-- #c-card--:hover {
+  cursor: pointer;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.58);
+}
+#item-element-- #photo-display-- {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  left: 15px;
+  top: 10px;
+}
+#item-element-- #name-display-- {
+  font-family: "Helvetica", "Arial", sans-serif;
+  position: relative;
+  left: 25px;
+  top: 42px;
+  font-weight: normal;
+}
+#item-element-- #hr-- {
+  position: absolute;
+  width: 320px;
+  height: 1px;
+  left: 205px;
+  top: 83px;
+  border: 0px;
+  background-color: rgb(215, 215, 215);
+}
+#item-element-- .price-display-- {
+  font-family: "Helvetica", "Arial", sans-serif;
+  position: relative;
+  left: -295px;
+  top: 80px;
+  font-weight: bolder;
+}
+#item-element-- #price-display--001 {
+  position: relative;
+  left: -162px;
+  top: 80px;
+}
+#item-element-- #price-display--002 {
+  position: relative;
+  left: -72px;
+}
+#item-element-- #price-display--004 {
+  position: relative;
+  left: -300px;
+}
+#item-element-- #price-display--005 {
+  position: relative;
+  left: -162px;
+}
+#item-element-- #price-display--001m {
+  position: relative;
+  left: -222px;
+}
+#item-element-- #add-cart-btn-- {
+  position: absolute;
+  left: 550px;
+  top: 60px;
+  width: 240px;
+  height: 60px;
+  background-color: rgb(79, 136, 183);
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+  color: white;
+  font-size: 18px;
+  text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bolder;
+  /* hover */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#item-element-- #add-cart-btn--:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.47);
+  background-color: rgb(67, 115, 155);
+}
+
+/* Alert Cart */
+@keyframes alertCartAnimOpen {
+  0% {
+    top: 158rem;
+  }
+  100% {
+    top: 48rem;
+  }
+}
+@keyframes alertCartAnimClose {
+  0% {
+    top: 48rem;
+  }
+  100% {
+    top: 158rem;
+  }
+}
+#--alert-cart {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: fixed;
+  left: 38rem;
+  top: -28rem;
+  width: 42rem;
+  height: 4rem;
+  background-color: rgb(79, 136, 183);
+  color: white;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+  text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: alertCartAnimOpen 0.3s forwards;
+}
+
+/* *//*# sourceMappingURL=catalog.css.map */

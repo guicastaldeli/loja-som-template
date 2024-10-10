@@ -1,0 +1,392 @@
+$defaultFont: 'Helvetica', 'Arial', sans-serif;
+
+#--rsv-i {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    top: -2rem;
+    left: 18rem;
+
+    width: 56rem;
+    height: 10rem;
+    background-color: rgba(255, 255, 255, 0.246);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.087);
+    border: 0;
+    border-radius: 8px;
+
+    margin-top: 0rem;
+
+    p {
+        font-family: $defaultFont;
+    }
+
+    #-p-p-img {
+        position: relative;
+        left: 1rem;
+        top: 1rem;
+
+        width: 8rem;
+        height: 8rem;
+    }
+
+    #-n-p-txt {
+        position: relative;
+        left: 9.5rem;
+        top: -8rem;
+
+        width: fit-content;
+        
+        font-size: 24px;
+    }
+
+    #-p-p-txt {
+        position: relative;
+        left: 9.5rem;
+        top: -9.5rem;
+
+        width: fit-content;
+
+        font-size: 20px;
+    }
+
+    #-q-p-txt {
+        position: relative;
+        left: 9.5rem;
+        top: -11rem;
+
+        width: fit-content;
+
+        font-size: 20px;
+    }
+
+    #---hrr {
+        position: relative;
+        left: -12.9rem;
+        top: -11.7rem;
+
+        width: 20%;
+        height: 1px;
+
+        border: 0;
+        background-color: rgb(174, 174, 174);
+    }
+
+    /* increase & decrease */
+        #-i-p-btn {
+            position: relative;
+            left: 9.5rem;
+            top: -12rem;
+
+            border: 0px;
+
+            background-color: rgb(70, 115, 191);
+            color: white;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.387);
+
+            &:hover {
+                cursor: pointer;
+                
+                background-color: rgb(61, 98, 163);
+                box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.561);
+            }
+
+            &:disabled {
+                cursor: default;
+                
+                color: black;
+                background-color: rgb(199, 199, 199);
+                box-shadow: 0px 0px 0px;
+            }
+        }
+
+        #-d-p-btn {
+            position: relative;
+            left: 9.5rem;
+            top: -12rem;
+
+            border: 0px;
+
+            background-color: rgb(70, 115, 191);
+            color: white;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.387);
+
+            /* hover & disabled */
+                transition: background-color 0.13s ease, box-shadow 0.13s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    
+                    background-color: rgb(61, 98, 163);
+                    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.561);
+                }
+
+                &:disabled {
+                    cursor: default;
+                    
+                    color: black;
+                    background-color: rgb(199, 199, 199);
+                    box-shadow: 0px 0px 0px;
+                }
+            /* */
+        }
+    /* */
+
+}
+
+/* Reserve */
+    #--rsv-b {
+        position: fixed;
+        left: 75rem;
+        top: 14.5rem;
+
+        background-color: rgb(79, 136, 183);
+        border: 0px;
+        border-radius: 6px;
+
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+
+        color: white;
+        font-size: 18px;
+        text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+
+        font-family: $defaultFont;
+        font-weight: bolder;
+
+        width: 16rem;
+        height: 6rem;
+
+        /* hover */
+            transition: background-color 0.13s ease, box-shadow 0.13s ease;
+
+            &:hover {
+                    cursor: pointer;
+
+                box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.47);
+                background-color: rgb(67, 115, 155);
+            }
+        /* */
+    }
+/* */
+
+/* Texts */
+    #-h-m-p {
+        position: relative;
+        left: 75rem;
+        top: 5rem;
+
+        width: fit-content;
+
+        font-family: $defaultFont;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    #-h-m-prdcts {
+        position: relative;
+        left: 75rem;
+        top: 3.4rem;
+
+        width: fit-content;
+        height: fit-content;
+
+        font-family: $defaultFont;
+        font-size: 25px;
+
+        color: rgb(168, 168, 168);
+    }
+/* */
+
+#--c-reserv {
+    position: fixed;
+    left: 75rem;
+    top: 21.5rem;
+
+    width: 18rem;
+    height: 16rem;
+
+    background-color: rgba(255, 255, 255, 0.246);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.087);
+    border: 0;
+    border-radius: 8px;
+
+    p {
+        font-family: $defaultFont;
+    }
+
+    /* elements */
+        #--c-r-b {
+            position: relative;
+            top: 0.5rem;
+            left: 0.5rem;
+
+            width: 95%;
+            height: 3rem;
+
+            background-color: rgb(74, 147, 73);
+            border: 0px;
+            border-radius: 6px;
+
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+
+            color: white;
+            font-size: 18px;
+            text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+
+            font-weight: bolder;
+
+            /* hover */
+                transition: background-color 0.13s ease, box-shadow 0.13s ease;
+
+                &:hover {
+                        cursor: pointer;
+
+                    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.47);
+                    background-color: rgb(60, 119, 59);
+                }
+            /* */
+        }
+
+        #--i-nmb {
+            position: relative;
+            left: 0.5rem;
+            top: -0.7rem;
+
+            width: 95%;
+            height: 1.5rem;
+
+            border: 0px;
+            border-radius: 6px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.148);
+
+            /* hover & focus */
+            transition: background-color 0.13s ease, box-shadow 0.13s ease;
+                
+                &:hover {
+                    cursor: text;
+
+                    background-color: rgb(239, 239, 239);
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.227);
+                }
+
+                &:focus {
+                    outline: 1px solid rgb(79, 136, 183);
+                }
+            /* */
+        }
+
+        #--i-n {
+            position: relative;
+            left: 0.5rem;
+            top: -0.7rem;
+
+            width: 95%;
+            height: 1.5rem;
+
+            border: 0px;
+            border-radius: 6px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.148);
+
+            /* hover & focus */
+                transition: background-color 0.13s ease, box-shadow 0.13s ease;
+                
+                &:hover {
+                    cursor: text;
+
+                    background-color: rgb(239, 239, 239);
+                    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.227);
+                }
+
+                &:focus {
+                    outline: 1px solid rgb(79, 136, 183);
+                }
+            /* */
+        }
+
+        /* texts */
+            #--n-txt {
+                position: relative;
+                left: 0.5rem;
+
+                width: fit-content;
+            }
+
+            #--name-txt {
+                position: relative;
+                left: 0.5rem;
+
+                width: fit-content;
+            }
+        /* */
+    /* */
+
+    #--c-r {
+        position: relative;
+        left: 0.5rem;
+        top: 0.5rem;
+        
+        width: fit-content;
+
+        border: 0;
+        background-color: transparent;
+
+        font-size: 22px;
+
+        /* hover */
+            transition: background-color 0.13s ease;
+
+            &:hover {
+                cursor: pointer;
+                
+                color: rgb(105, 105, 105)
+            }
+        /* */
+    }
+}
+
+#-b-p-btn {
+    position: relative;
+    left: 12rem;
+    top: 10.5rem;
+
+    font-family: $defaultFont;
+    font-size: 42px;
+
+    width: 4rem;
+    height: 4rem;
+    
+    background-color: white;
+    border: 0;
+    border-radius: 6px;
+
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.18);
+
+    font-weight: bolder;
+
+    /* hover */
+        transition: background-color 0.13s ease, box-shadow 0.13s ease;
+
+        &:hover {
+            cursor: pointer;
+
+            background-color: rgb(236, 236, 236);
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.308);
+        }
+    /* */
+}
+
+/* alert */
+    #-a-txt {
+        position: fixed;
+        top: 7rem;
+        left: 18rem;
+
+        width: 55rem;
+
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(33, 189, 33);
+
+        font-family: $defaultFont;
+    }
+/* */

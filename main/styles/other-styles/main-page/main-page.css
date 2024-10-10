@@ -1,0 +1,375 @@
+body, html {
+  margin: 0 auto;
+  background-color: rgb(239, 239, 239);
+}
+
+#--m-h {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 7.2rem;
+  background-color: rgb(232, 232, 232);
+  /* types */
+  /* brands */
+  /* hub filter */
+  /* all filters */
+}
+#--m-h label, #--m-h p {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+#--m-h #-m-l {
+  position: relative;
+  left: 58.5rem;
+  top: 0.7rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#--m-h #-m-l:hover {
+  cursor: pointer;
+}
+#--m-h #-g {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1.8rem;
+  left: 102rem;
+  width: 10rem;
+  height: 3rem;
+  color: white;
+  text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+  background-color: rgb(235, 117, 57);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+  border: 0;
+  border-radius: 0.5rem;
+  margin-left: 0;
+  /* hover */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#--m-h #-g:hover {
+  cursor: pointer;
+  background-color: rgb(213, 106, 52);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.47);
+}
+#--m-h #---s-i {
+  position: absolute;
+  left: 50rem;
+  top: 4rem;
+  width: 20rem;
+  height: 2rem;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.148);
+  /* hover & focus */
+  transition: background-color 0.13s ease;
+  /* */
+}
+#--m-h #---s-i:hover {
+  cursor: text;
+  background-color: rgb(239, 239, 239);
+}
+#--m-h #---s-i:focus {
+  outline: 1px solid rgb(79, 136, 183);
+}
+#--m-h #-m-hr {
+  border: 0;
+  height: 0.05rem;
+  position: relative;
+  top: 4rem;
+  background-color: rgb(211, 211, 211);
+}
+#--m-h #---t label, #--m-h #---t input {
+  position: relative;
+  left: 12rem;
+  top: 8.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  flex-direction: column;
+}
+#--m-h #---t #---t-txt {
+  position: absolute;
+}
+#--m-h #---c label, #--m-h #---c input {
+  position: relative;
+  top: 0.8rem;
+  left: 1.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  flex-direction: column;
+}
+#--m-h #---h-f {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  left: 3rem;
+  top: 2.6rem;
+  width: 20rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.175);
+  /* hover */
+  transition: color 0.13s ease;
+  /* */
+}
+#--m-h #---h-f #---h-f-txt {
+  position: absolute;
+  left: 3rem;
+  top: -5rem;
+}
+#--m-h #---h-f p:hover {
+  cursor: pointer;
+  color: rgb(71, 71, 71);
+}
+#--m-h #---h-f input[type=radio]:hover {
+  cursor: pointer;
+}
+#--m-h #---a-f {
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.244);
+  position: relative;
+  border: 0;
+  border-radius: 6px;
+  top: -1rem;
+  width: 22rem;
+  height: 20rem;
+  /* t & c */
+  /* */
+  /* radio */
+  /* */
+}
+#--m-h #---a-f #---t {
+  position: relative;
+  width: 10rem;
+  height: 20rem;
+  left: 12rem;
+}
+#--m-h #---a-f #---t input, #--m-h #---a-f #---t label {
+  left: 0rem;
+}
+#--m-h #---a-f #---c {
+  position: fixed;
+  top: 5.1rem;
+  left: 2rem;
+  width: 10rem;
+  height: 20rem;
+}
+#--m-h #---a-f input[type=radio] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid rgb(69, 119, 161);
+  width: 1.2rem;
+  height: 1.2rem;
+}
+#--m-h #---a-f input[type=radio]:checked {
+  background-color: rgb(79, 136, 183);
+}
+#--m-h #--c-tel {
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  left: 16rem;
+  top: 2.2rem;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bolder;
+  color: rgba(64, 128, 64, 0.797);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.121);
+}
+#--m-h #--c-tel:hover {
+  cursor: pointer;
+  color: rgba(55, 109, 55, 0.87);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.235);
+}
+
+#div-master {
+  position: fixed;
+  top: 0rem;
+  left: 95rem;
+  z-index: 9;
+  width: 21rem;
+  height: 50rem;
+  border-left: 1px;
+  border-radius: 6px;
+  border-top-right-radius: 0px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+  /* item element cart */
+  /* Total */
+  /* */
+  /* */
+}
+#div-master p, #div-master h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+#div-master #empty-msg-- {
+  font-size: 16px;
+  font-weight: normal;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 18rem;
+  color: rgb(166, 166, 166);
+}
+#div-master #close-cart-btn {
+  position: relative;
+  left: 0.5rem;
+  top: 0.5rem;
+  border: 0;
+  background-color: transparent;
+  font-size: 24px;
+  /* hover */
+  transition: background-color 0.13s ease;
+  /* */
+}
+#div-master #close-cart-btn:hover {
+  cursor: pointer;
+  color: rgb(105, 105, 105);
+}
+#div-master #i-c-i-- {
+  position: relative;
+  top: -10rem;
+  width: 20rem;
+  height: 5rem;
+  margin-top: 2rem;
+}
+#div-master #hrc-- {
+  position: relative;
+  top: 7rem;
+  left: 0.5rem;
+  width: 95%;
+  height: 1px;
+  border: 0;
+  background-color: rgb(229, 229, 229);
+}
+#div-master #p-c-i-- {
+  overflow: auto;
+  position: relative;
+  width: 6rem;
+  left: 0.5rem;
+  border: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.331);
+}
+#div-master #n-c-i-- {
+  font-size: 12px;
+  position: relative;
+  left: 7rem;
+  top: -7rem;
+}
+#div-master #price-c-i-- {
+  font-size: 12px;
+  position: relative;
+  left: 7rem;
+  top: -7.5rem;
+}
+#div-master #q-c-i-- {
+  font-size: 14px;
+  color: rgb(157, 157, 157);
+  position: relative;
+  left: 7rem;
+  top: -7rem;
+}
+#div-master .i-d-d-i-- {
+  position: relative;
+  left: 7rem;
+  top: -7.5rem;
+}
+#div-master #del-b-i-- {
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(97, 127, 178);
+  color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.387);
+  /* hover */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#div-master #del-b-i--:hover {
+  cursor: pointer;
+  background-color: rgb(79, 104, 146);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.561);
+}
+#div-master #d-b-i-- {
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(70, 115, 191);
+  color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.387);
+  /* hover & disabled */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#div-master #d-b-i--:hover {
+  cursor: pointer;
+  background-color: rgb(61, 98, 163);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.561);
+}
+#div-master #d-b-i--:disabled {
+  cursor: default;
+  color: black;
+  background-color: rgb(199, 199, 199);
+  box-shadow: 0px 0px 0px;
+}
+#div-master #i-b-i-- {
+  border: 0;
+  border-radius: 4px;
+  background-color: rgb(70, 115, 191);
+  color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.387);
+  /* hover & disabled */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#div-master #i-b-i--:hover {
+  cursor: pointer;
+  background-color: rgb(61, 98, 163);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.561);
+}
+#div-master #i-b-i--:disabled {
+  cursor: default;
+  color: black;
+  background-color: rgb(199, 199, 199);
+  box-shadow: 0px 0px 0px;
+}
+#div-master #h-m-p-- {
+  position: relative;
+  top: 41rem;
+  left: 0.5rem;
+  font-weight: bold;
+}
+#div-master #h-m-prdcts-- {
+  position: relative;
+  top: 40rem;
+  left: 0.5rem;
+  font-weight: bolder;
+}
+#div-master #r-i-btn-- {
+  position: relative;
+  top: 39.2rem;
+  left: 0.5rem;
+  border: 0;
+  width: 95%;
+  height: 3rem;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: rgb(79, 136, 183);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.272);
+  color: white;
+  text-shadow: 0px 1.5px 0px rgba(0, 0, 0, 0.088);
+  /* hover */
+  transition: background-color 0.13s ease, box-shadow 0.13s ease;
+  /* */
+}
+#div-master #r-i-btn--:hover {
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.47);
+  background-color: rgb(67, 115, 155);
+}/*# sourceMappingURL=main-page.css.map */

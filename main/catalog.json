@@ -1,0 +1,31 @@
+{
+    "general": {
+        "brandlist": {
+            "brands": [
+                { "name": "PIONEER"},
+                { "name": "BRAVOX" },
+                { "name": "JBL" },
+                { "name": "LESON" },
+                { "name": "STETSOM" }
+            ]
+        },
+        "productstype": {
+            "types": [
+                { "type": "ALTO-FALANTES" },
+                { "type": "MODULOS" }
+            ]
+        },
+        "catalog": {
+            "speakers": [
+                { "id": "001", "type": "ALTO-FALANTES", "brand": "PIONEER", "photo": "/assets/img/1.png", "photo1": "/assets/img/2.png", "photo2": "/assets/img/3.png", "name": "PIONEER TS-1360BR", "price": "999.99", "stquantity": 5 },
+                { "id": "002", "type": "ALTO-FALANTES", "brand": "JBL", "photo": "/assets/img/2.png", "photo1": "/assets/img/1b.png", "name": "JBL Flex 6p", "price": "999.99", "stquantity": 8},
+                { "id": "003", "type": "ALTO-FALANTES", "brand": "LESON", "photo": "/assets/img/3.png","photo1": "/assets/img/1b.png", "name": "LE SON Alto Falante 6 Polegadas LS6", "price": "999.99", "stquantity": 2 },
+                { "id": "004", "type": "ALTO-FALANTES", "brand": "BRAVOX", "photo": "/assets/img/4.png", "photo1": "/assets/img/1b.png", "name": "BRAVOX Alto-Falante Triaxial Bravox 5", "price": "999.99", "stquantity": 3 },
+                { "id": "005", "type": "ALTO-FALANTES", "brand": "PIONEER", "photo": "/assets/img/5.png", "photo1": "/assets/img/1b.png", "name": "PIONEER TS-1790BR", "price": "999.99", "stquantity": 9 }
+            ],
+            "modules": [
+                { "id": "001m", "type": "MODULOS", "brand": "STETSOM", "photo": "/assets/img/1a.png", "name": "Stetsom Vulcan 8000w 2 ohm", "price": "999.99", "stquantity": 15 }
+            ]
+        }
+    }
+}
