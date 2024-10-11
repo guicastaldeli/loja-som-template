@@ -1,6 +1,10 @@
 {
     "rewrites": [
       {
+        "source": "/(.*).js",
+        "destination": "/main/$1.js"
+      },
+      {
         "source": "/(.*)",
         "destination": "/main/index.html"
       }
