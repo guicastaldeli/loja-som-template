@@ -57,7 +57,7 @@ export function __reservePrdctPageMain() {
 
         const photoPrdct = document.createElement('img');
         photoPrdct.id = '-p-p-img';
-        photoPrdct.src = item.photo;
+        photoPrdct.src = item.photo.startsWith('assets/') ? `../${item.photo}` : item.photo;
 
         const namePrdct = document.createElement('p');
         namePrdct.id = '-n-p-txt'

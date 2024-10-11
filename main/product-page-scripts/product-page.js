@@ -27,7 +27,7 @@ export function __prdctPageMain() {
                     //Main Photo
                         const photoPrdct = document.createElement('img');
                         photoPrdct.id = 'p-p-img--';
-                        photoPrdct.src = selectedProduct.photo;
+                        photoPrdct.src = selectedProduct.photo.startsWith('assets/') ? `../${selectedProduct.photo}` : selectedProduct.photo;
 
                         container.append(photoPrdct);
                     //
@@ -47,13 +47,13 @@ export function __prdctPageMain() {
                                 thumb.id = `p-p-img-${i}--`;
                                 thumb.classList.add('p-p-img-thumb--');
 
-                                thumb.src = src;
+                                thumb.src = src.startsWith('assets/') ? `../${src}` : src;
 
                                 thumbs.push(thumb);
 
                                 //Change photo and add border
                                 thumb.addEventListener('click', () => {
-                                    photoPrdct.src = src;
+                                    photoPrdct.src = src.startsWith('assets/') ? `../${src}` : src;
 
                                     thumbs.forEach(t => t.classList.remove('selected-photo--'));
 
