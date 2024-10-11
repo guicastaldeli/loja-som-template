@@ -1,28 +1,56 @@
 {
-    "rewrites": [
-      {
-        "source": "/product-page-scripts/(.*).js",
-        "destination": "/main/product-page-scripts/$1.js"
-      },
-      {
-        "source": "/product-page-scripts/(.*).html",
-        "destination": "/main/product-page-scripts/$1.html"
-      },
-      {
-        "source": "/reserve-page-scripts/(.*).js",
-        "destination": "/main/reserve-page-scripts/$1.js"
-      },
-      {
-        "source": "/reserve-page-scripts/(.*).html",
-        "destination": "/main/reserve-page-scripts/$1.html"
-      },
-      {
-        "source": "/scripts/(.*).js",
-        "destination": "/main/scripts/$1.js"
-      },
-      {
-        "source": "/(.*)",
-        "destination": "/main/index.html"
-      }
-    ]
+  "rewrites": [
+    {
+      "source": "/product-page-scripts/(.*).js",
+      "destination": "/main/product-page-scripts/$1.js"
+    },
+    {
+      "source": "/product-page-scripts/(.*).html",
+      "destination": "/main/product-page-scripts/$1.html"
+    },
+    {
+      "source": "/reserve-page-scripts/(.*).js",
+      "destination": "/main/reserve-page-scripts/$1.js"
+    },
+    {
+      "source": "/reserve-page-scripts/(.*).html",
+      "destination": "/main/reserve-page-scripts/$1.html"
+    },
+    {
+      "source": "/scripts/(.*).js",
+      "destination": "/main/scripts/$1.js"
+    },
+    {
+      "source": "/styles/(.*).css",
+      "destination": "/main/styles/$1.css"
+    },
+    {
+      "source": "/other-styles/catalog/(.*).css",
+      "destination": "/main/styles/other-styles/catalog/$1.css"
+    },
+    {
+      "source": "/other-styles/main-page/(.*).css",
+      "destination": "/main/styles/other-styles/main-page/$1.css"
+    },
+    {
+      "source": "/other-styles/product-page/(.*).css",
+      "destination": "/main/styles/other-styles/product-page/$1.css"
+    },
+    {
+      "source": "/other-styles/reserve-page/(.*).css",
+      "destination": "/main/styles/other-styles/reserve-page/$1.css"
+    },
+    {
+      "source": "/catalog.json",
+      "destination": "/main/catalog.json"
+    },
+    {
+      "source": "/assets/img/(.*)",
+      "destination": "/assets/img/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/main/index.html"
+    }
+  ]
 }
